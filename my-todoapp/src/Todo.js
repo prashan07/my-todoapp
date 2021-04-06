@@ -38,7 +38,7 @@ function Todo(props) { //Needs to be capitalized
     }
 
     return (
-        <div>
+        <div id="main">
              <Modal open={open} onClose={e => setOpen(false)}>
             <div className="{classes.paper}">
                 <h1>Let's Edit</h1>
