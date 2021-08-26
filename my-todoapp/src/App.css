@@ -1,17 +1,19 @@
-html{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./images/dream2.jpg);
+html {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/sun.jpg);
   background-position: center;
   background-size: cover;
+  /* background-repeat: no-repeat; */
   color: white;
 }
-.MuiSvgIcon-root{
+.MuiSvgIcon-root {
   cursor: pointer;
 }
 
-
 .App {
   text-align: center;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  height: 100vh;
 }
 
 .App-logo {
@@ -48,4 +50,3 @@ html{
     transform: rotate(360deg);
   }
 }
-

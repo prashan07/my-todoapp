@@ -1,0 +1,24 @@
+.todoEdit {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 0;
+  /* border: 1px solid red; */
+  /* background-color: gray; */
+}
+
+.todoEdit Input {
+  margin-top: 10px;
+}
+
+.todoEdit Button {
+  margin-top: 20px;
+}
+
+.todoEdit h1 {
+  text-align: center;
+  color: black;
+  font-size: 18px;
+}

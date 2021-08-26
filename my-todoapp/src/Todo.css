@@ -1,3 +1,7 @@
-.todo_list{
-    text-align: center;
+.todo_list {
+  text-align: center;
+}
+
+.todo_list_text {
+  /* font-family: "Times New Roman", Times, serif; */
 }
